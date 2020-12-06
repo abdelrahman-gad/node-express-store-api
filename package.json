@@ -1,0 +1,33 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "e-commerce with mern stack",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "ecommerce"
+  ],
+  "author": "abdurrahman",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "braintree": "^2.16.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.1",
+    "express-validator": "^5.3.0",
+    "formidable": "^1.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.10.9",
+    "mongoose-unique-validator": "^2.0.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.5",
+    "uuid": "^8.3.1"
+  }
+}
