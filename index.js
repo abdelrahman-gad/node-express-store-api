@@ -56,6 +56,9 @@ app.use('/api', productRoutes);
 app.use('/api', orderRoutes);
 app.use('/api', braintreeRoutes);
 
+app.get('/', (req , res )=>{
+    res.send('If you want to access the store api type in url input ${domain}/api/{products|...}')
+} );
 //listen to ports
 const port = process.env.port || 8000;
 app.listen( port ,() => {
